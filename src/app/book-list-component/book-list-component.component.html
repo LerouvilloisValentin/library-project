@@ -1,0 +1,6 @@
+<app-add-book (addBook)="addBookService($event)" ></app-add-book>
+<ul>
+  <li *ngFor="let book of books$ |async">
+    <app-edit-book-component [book]="book" (remove)="removeBook(book.id)"></app-edit-book-component>
+  </li>
+</ul>

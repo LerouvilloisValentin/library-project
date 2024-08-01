@@ -1,0 +1,8 @@
+<div class="input-group mb-3">
+    <form (ngSubmit)="onAddBook()">
+        <input [(ngModel)]="title" name="title" type="text" class="form-control" placeholder="Title" >
+        <input [(ngModel)]="author" name="author" type="text" class="form-control" placeholder="Author" >
+        <input [(ngModel)]="description" name="description" type="text" class="form-control" placeholder="Description" >
+        <button class="btn btn-primary" type="submit" >Add Book</button>
+    </form>
+    </div>
