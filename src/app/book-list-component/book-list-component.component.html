@@ -2,6 +2,7 @@
 <ul>
   <li *ngFor="let book of books$ |async">
     <app-edit-book-component [book]="book" (remove)="removeBook(book.id)" ></app-edit-book-component>
+    <button (click)="viewDetail(book.id)">View</button>
   </li>
 </ul>
-<!-- (update)="updateBook($event)" -->
+
