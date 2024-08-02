@@ -34,41 +34,6 @@
       "author": "Herman Melville",
       "description": "The narrative of Captain Ahab's obsessive quest to kill the giant white sperm whale, Moby Dick.",
       "status": "borrowed"
-    },
-    {
-      "id": "6",
-      "title": "War and Peace",
-      "author": "Leo Tolstoy",
-      "description": "A historical novel that tells the story of French invasion of Russia and the impact of the Napoleonic era on Tsarist society.",
-      "status": "available"
-    },
-    {
-      "id": "7",
-      "title": "The Catcher in the Rye",
-      "author": "J.D. Salinger",
-      "description": "A novel about the challenges of teenage angst and alienation.",
-      "status": "available"
-    },
-    {
-      "id": "8",
-      "title": "The Hobbit",
-      "author": "J.R.R. Tolkien",
-      "description": "A fantasy novel and children's book by J.R.R. Tolkien.",
-      "status": "borrowed"
-    },
-    {
-      "id": "9",
-      "title": "Brave New World",
-      "author": "Aldous Huxley",
-      "description": "A dystopian social science fiction novel and cautionary tale.",
-      "status": "borrowed"
-    },
-    {
-      "id": "e413",
-      "title": "vse",
-      "author": "vqs",
-      "description": "v<",
-      "status": true
     }
   ]
 }

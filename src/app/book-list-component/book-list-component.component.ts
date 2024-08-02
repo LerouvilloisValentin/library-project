@@ -35,7 +35,9 @@ export class BookListComponentComponent {
   }
 
   removeBook(id:string):void{
-    this.bookService.remove(id)
+    this.bookService.remove(id).subscribe(()=>{
+      this.books$=this.bookService.getBooks()
+    })
   }
 
 

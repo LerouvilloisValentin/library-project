@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { Book } from '../book.service';
 
 @Component({
@@ -10,6 +10,9 @@ import { Book } from '../book.service';
 })
 export class EditBookComponentComponent {
   @Input() book!:Book
+  @Output() remove : EventEmitter<string>=new EventEmitter<string>()
 
-  
+  onRemove(){
+    this.remove.emit(this.book.id)
+  }
 }
