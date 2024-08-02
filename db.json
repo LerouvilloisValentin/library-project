@@ -1,16 +1,9 @@
 {
   "books": [
     {
-      "id": "1",
-      "title": "To Kill a Mockingbi",
-      "author": "Harper Lgzgzhtht'",
-      "description": "A novel about the serious issues of rape and racial inequality.",
-      "status": "available"
-    },
-    {
       "id": "2",
-      "title": "1984",
-      "author": "George Orwell",
+      "title": "19btvsqfq",
+      "author": "George Orwellgzgz",
       "description": "A dystopian novel set in a totalitarian society ruled by Big Brother.",
       "status": "borrowed"
     },
@@ -27,13 +20,6 @@
       "author": "F. Scott Fitzgerald",
       "description": "A novel about the American dream and the roaring twenties.",
       "status": "available"
-    },
-    {
-      "id": "5",
-      "title": "Moby Dick",
-      "author": "Herman Melville",
-      "description": "The narrative of Captain Ahab's obsessive quest to kill the giant white sperm whale, Moby Dick.",
-      "status": "borrowed"
     }
   ]
 }

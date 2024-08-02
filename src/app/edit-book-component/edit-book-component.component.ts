@@ -13,7 +13,7 @@ import { CommonModule } from '@angular/common';
 export class EditBookComponentComponent {
   @Input() book!:Book
   @Output() remove : EventEmitter<string>=new EventEmitter<string>()
-  // @Output() update: EventEmitter<Book> = new EventEmitter<Book>();
+
   bookForm!: FormGroup;
 
   constructor(private fb:FormBuilder){}
@@ -33,10 +33,4 @@ export class EditBookComponentComponent {
     this.remove.emit(this.book.id);
   }
 
-  // onUpdate() {
-  //   if (this.bookForm.valid) {
-  //     const updatedBook = { ...this.book, ...this.bookForm.value };
-  //     this.update.emit(updatedBook);
-  //   }
-  // }
 }
