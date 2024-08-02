@@ -1,5 +1,20 @@
-<span> {{book.title}}</span>
-<span> {{book.author}}</span>
-<span> {{book.status}}</span>
-<button (click)="onRemove()">Remove</button>
+<div>
+  <form [formGroup]="bookForm">
+    <label for="title">Title</label>
+    <input id="title" formControlName="title" type="text" />
+
+    <label for="author">Author</label>
+    <input id="author" formControlName="author" type="text" />
+
+    <label for="description">Description</label>
+    <input id="description" formControlName="description" type="text" />
+
+    <label for="status">Status</label>
+    <input id="status" formControlName="status" type="checkbox" />
+
+    <button type="submit">Update</button>
+  </form>
+  <button (click)="onRemove()">Remove</button>
+</div>
+<!-- (ngSubmit)="onUpdate()" -->
 

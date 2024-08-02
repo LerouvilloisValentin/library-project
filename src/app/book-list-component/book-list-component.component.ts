@@ -40,5 +40,10 @@ export class BookListComponentComponent {
     })
   }
 
+  updateBook(updatedBook: Book): void {
+    this.bookService.updateBook(updatedBook).subscribe(() => {
+      this.books$ = this.bookService.getBooks();  // Met à jour la liste des livres
+    });
+  }
 
 }
